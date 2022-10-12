@@ -5,6 +5,7 @@ function getRandomHexColor() {
 const bodyEl = document.body;
 const btnStart = document.querySelector('[data-start]');
 const btnStop = document.querySelector('[data-stop]');
+let colorSwitcherTimerId = null;
 
 const onColorSwitcher = () => {
   if (onColorSwitcher) {
